@@ -23,13 +23,15 @@ if( randomNumber > guessNumber ){
     bodyBgColor.style.backgroundColor = "orange"
     newH4.textContent = "clever witch"
     newImg.style.borderRadius = "30px"
-    document.querySelector("img").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLdPNV6CvRQWP93CBCH6KtSN0NeVC_ZqsiM7RBsRnNCgztqZrkR3_i2AhNBuKsauVeBUA&usqp=CAU"
+   document.querySelector("body").style.backgroundImage =  "url('https://static.vecteezy.com/system/resources/thumbnails/009/637/330/small/cute-funny-halloween-black-cat-witch-on-flying-broom-with-full-moon-and-bats-watercolor-illustration-vector-png.png')"
+   
+  }
     
-}
+
 document.querySelector(".input").value = "";
 document.querySelector(".input").focus() = "";
 
-})
+});
 
 
 
