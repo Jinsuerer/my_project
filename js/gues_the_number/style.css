@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 70%;
+    height: 400px;
+}
+
+h2{
+    margin: 30px;
+    text-align: center;
+}
+.myBtn{
+    margin: 30px;
+    text-align: center;
+}
+input{
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.btn{
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+}
+img{
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+.bottom{
+    margin: 30px;
+    text-align: center;
+}
+
+h4{
+    margin: 10px;
+}
