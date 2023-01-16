@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Yeon+Sung&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+
+}
+.container{
+    background-color: aqua;
+    width: 85vh;
+    max-width: 700px;
+    min-height:40vh ;
+}
