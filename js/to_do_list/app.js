@@ -1,9 +1,20 @@
 //Selektors
+
 const todoInput = document.getElementById("todo-input");
 
 const addBtn = document.getElementById("todo-button");
 
 const todoUl = document.getElementById("todo-ul");
+
+let todos = JSON.parse(localStorage.getItem("TODOS") || [])
+console.log(todos);
+
+const renderSavedTodos = () => {
+    todos.forEach((todo) => {
+        cretaListElement(todo)
+    })
+}
+renderSavedTodos();
 
 
 //Button click oldugunda ne olsun?
